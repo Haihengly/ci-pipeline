@@ -1,7 +1,7 @@
 @Library(['sharedLib@main', 'share-pipeline']) _ 
 
 def config = [ 
-    BUILD_DIR: 'Dev-My-Store', 
+    BUILD_DIR: 'Multibranch-Testing', 
     envName: 'dev', 
     version: '1.0.1', 
     branch: env.BRANCH_NAME, 
