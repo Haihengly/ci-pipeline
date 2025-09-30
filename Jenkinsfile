@@ -1,11 +1,11 @@
 @Library(['sharedLib@main', 'share-pipeline']) _ 
 
 def config = [ 
-    BUILD_DIR: 'Multibranch-Testing', 
-    envName: 'dev', 
+    BUILD_DIR: 'Dev-Prod', 
+    envName: 'prod', 
     version: '1.0.1', 
-    branch: env.BRANCH_NAME, 
-    REPO_URL: 'https://github.com/Haihengly/Dev-Service', 
+    branch: 'main', 
+    REPO_URL: 'https://github.com/Haihengly/Products-Jenkins', 
     build: true, 
     deploy: true, 
 ] 
