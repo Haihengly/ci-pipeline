@@ -1,7 +1,7 @@
 @Library(['sharedLib@main', 'pipeline-library']) _ 
 
 def config = [
-    FOLDER: 'Dev-Prod',
+    FOLDER: 'LeeShop',
     envName: env.BRANCH_NAME, 
     version: '1.0.2', 
     branch: env.BRANCH_NAME, 
